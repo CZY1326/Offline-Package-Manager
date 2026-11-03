@@ -23,7 +23,7 @@
 
 **Option A — download the exe**
 
-Grab `PackManager2.2.2.exe` from [Releases](../../releases), put it anywhere and double-click it. Nothing is installed, no administrator rights are needed, and the program writes only two files next to itself (see [Where your data lives](#where-your-data-lives)).
+Download `PackManager2.2.2-win64.zip` from [Releases](../../releases), unzip it anywhere and double-click `PackManager2.2.2.exe`. Nothing is installed, no administrator rights are needed, and the program writes only two files next to itself (see [Where your data lives](#where-your-data-lives)).
 
 **Option B — run from source**
 
@@ -115,7 +115,7 @@ Output goes to `dist/PackManager2.2.2.exe`. The build bundles `tkinterdnd2` and 
 
 **方式一：下载 exe**
 
-到 [Releases](../../releases) 下载 `PackManager2.2.2.exe`，放哪儿都行，双击就能用。免安装、不需要管理员权限，只会在程序旁边写两个文件（见 [数据存在哪](#数据存在哪)）。
+到 [Releases](../../releases) 下载 `PackManager2.2.2-win64.zip`，解压到哪儿都行，双击里面的 `PackManager2.2.2.exe` 就能用。免安装、不需要管理员权限，只会在程序旁边写两个文件（见 [数据存在哪](#数据存在哪)）。
 
 **方式二：从源码运行**
 
