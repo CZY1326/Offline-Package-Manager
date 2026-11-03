@@ -1,0 +1,9 @@
+# Runtime dependencies for running PackManager from source.
+# On first launch the app also auto-installs anything missing (via pip,
+# using the Tsinghua mirror); installing these up front avoids that.
+py7zr>=0.20
+rarfile>=4.0
+tkinterdnd2>=0.3
+
+# Build only:
+# pyinstaller>=6.0

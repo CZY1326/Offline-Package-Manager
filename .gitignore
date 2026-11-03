@@ -1,0 +1,22 @@
+# 本地索引数据库与日志（每个用户自己生成，不要提交）
+pack_index.db
+pack_index.db-wal
+pack_index.db-shm
+packmanager.log
+packmanager.log.*
+
+# PyInstaller 产物
+build/
+dist/
+*.spec
+version_info.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 本地临时脚本（截图/测试/探针），不属于发布内容
+_*.py
+_*.png
