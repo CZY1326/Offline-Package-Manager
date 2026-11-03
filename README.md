@@ -4,7 +4,7 @@
 
 [中文说明 ↓](#中文说明)
 
-`Windows 10 / 11` · `Python 3.9+ (from source)` · `SQLite` · `single file, ~2000 lines`
+`Windows 10 / 11` · `Python 3.9+ (from source)` · `SQLite` · `single file, ~2000 lines` · [`MIT`](LICENSE)
 
 ![Files view (light)](screenshots/file-light.png)
 
@@ -193,3 +193,10 @@ python PackManager2.2.2.py --build
 - **压缩包列表只取前约 50 项**，用来区分"绿色版"和"普通压缩包"已经够用。
 - **首次扫描大树是最慢的一步**（要读每个 exe 的尾部来识别 Inno/NSIS）；结果按 `(路径, 大小, 修改时间)` 缓存，之后刷新很快。
 - 界面以中文为主（主要按钮带英文），代码注释是中文。
+
+## 许可证 / License
+
+MIT —— 见 [LICENSE](LICENSE)。随便用、随便改、随便分发、拿去商用都行，前提是保留版权声明和这段许可声明；软件按“现状”提供，不附带任何担保。
+
+MIT — see [LICENSE](LICENSE). Use it, change it, ship it, sell it; just keep the copyright notice and the permission notice. No warranty of any kind.
+
